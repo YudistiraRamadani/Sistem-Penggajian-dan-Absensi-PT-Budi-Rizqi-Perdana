@@ -1,0 +1,39 @@
+Sistem Informasi Absensi dan Penggajian Petugas di PT Budi Rizqi Perdana.
+
+
+akun admin :
+
+email : admin@gmail.com
+password : admin123
+
+akun user :
+
+email : user@gmail.com
+password : user123
+
+
+email : dwi@gmail.com
+password : dwi123
+
+role admin :
+- menambah, mengubah, menghapus data jabatan
+- menambah, mengubah, menghapus data karyawan
+- menambah, mengubah, menghapus data PK
+- menambah, mengubah, menghapus data jabatan
+- menambah, mengubah, menghapus data absensi
+- memantau kehadiran pegawai
+- membuat penggajian
+
+
+role user (pegawai lapangan) :
+- absen pulang dan masuk
+- absen masuk memilih pk yang dibawa dan memasukkan jumlah pk yang dibawa
+- absen pulang memasukkan jumlah pk yang selesai dan belum
+- melihat gaji yang telah dibuat admin
+
+
+penggunaan sebelum dihosting atau diupload di website :
+- ekstrak file zip
+- buka laragon
+- pilih menu file lalu pilih run sql file dan pilih file db_budirizqiperdana.sql
+- buka file .env lalu sesuaikan port dan host pada laragon
